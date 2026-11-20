@@ -33,3 +33,27 @@ game = "26.3"
 file = "universal_viewer-0.1.13.hmod"
 sha256 = "4420e5525240636e17bafeed2248f7e72357e3dd4d3e43b386b514778320bda9"
 changelog = "First release: map pictures on slot icons and in the tooltip, Shift preview of shulker boxes and bundles, tinted placed shulker screens."
+
+[[versions]]
+version = "0.1.14"
+published = "2026-11-20"
+game = "26.3"
+file = "universal_viewer-0.1.14.hmod"
+sha256 = "c31b743d827669499497546180df01ced7d1f9f981cc9a95728444b6eaccbf39"
+changelog = "Map pictures on slots are drawn once per screen instead of per item. New: press Ctrl while a shulker box or bundle preview shows to lock it in place and hover its items."
+
+[[versions]]
+version = "0.1.15"
+published = "2026-11-20"
+game = "26.3"
+file = "universal_viewer-0.1.15.hmod"
+sha256 = "3b0821f9716f0d13d7d06f6cd35049a11e33c7751e859f90ab1b9690f4965986"
+changelog = "Ctrl lock is now held by default; a setting switches to press-to-toggle. The open menu is read at most once a second."
+
+[[versions]]
+version = "0.1.16"
+published = "2026-11-20"
+game = "26.3"
+file = "universal_viewer-0.1.16.hmod"
+sha256 = "0618b4e9d465a4b1b449ceb431509af561e21eec034c7925d41d31d9f7c56a1c"
+changelog = "Hold Ctrl over a shulker box or bundle preview to lock it and hover its items (a setting switches to press-to-toggle). Placed shulker boxes tint their screen again. Map pictures on slots are drawn once per screen and the open menu is read a few slots per tick, removing the CPU cost and spikes in containers full of shulker boxes."
